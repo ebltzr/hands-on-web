@@ -1,0 +1,91 @@
+body {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+        url(background.jpg);
+}
+
+.nav {
+    display: flex;
+    width: 900px;
+    min-width: 300px;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+}
+
+.nav-item {
+    color: white;
+    width: 200px;
+    border: 2px solid #c2f0cf;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    
+}
+
+.scroll {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+}
+
+.tv {
+    min-height: 500px;
+    max-height: auto;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner>img {
+    height: 200px;
+}
+
+.grid-container {
+    display: flex;
+    width: 100%;
+    min-width: 300px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.grid-item {
+    width: 200px;
+    border: 2px solid #c2f0cf;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#form {
+    border: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+#form>input {
+    border: 2px solid #c2f0cf;
+    margin: 10px;
+}
+
+#form>button {
+    background-color: #c2f0cf;
+    border-color: #c2f0cf;
+    margin: 10px;
+}
+
+#form>button:hover {
+    color: white;
+}
